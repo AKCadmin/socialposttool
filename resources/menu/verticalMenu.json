@@ -1,0 +1,82 @@
+{
+    "menu": [
+        {
+            "url": "#",
+            "name": "Post",
+            "icon": "menu-icon tf-icons bx bxl-twitter",
+            "slug": "social",
+            "submenu": [
+                {
+                    "url": "/",
+                    "name": "List",
+                    "slug": "social-posts",
+                    "badge": [
+                        "label-primary fs-tiny",
+                        ""
+                    ]
+                },
+                {
+                    "url": "/post/post-form",
+                    "name": "Auto Post",
+                    "slug": "do-social-post-view",
+                    "badge": [
+                        "label-primary fs-tiny",
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "#",
+            "name": "Configuration",
+            "icon": "menu-icon tf-icons bx bxs-cog",
+            "slug": "configuration",
+            "submenu": [
+                {
+                    "url": "/configuration/list",
+                    "name": "List",
+                    "slug": "configuration-list",
+                    "badge": [
+                        "label-primary fs-tiny",
+                        ""
+                    ]
+                },
+                {
+                    "url": "/configuration/add",
+                    "name": "Add",
+                    "slug": "configuration-add",
+                    "badge": [
+                        "label-primary fs-tiny",
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "#",
+            "name": "Organization",
+            "icon": "menu-icon tf-icons bx bxs-component",
+            "slug": "organization",
+            "submenu": [
+                {
+                    "url": "/organization/list",
+                    "name": "List",
+                    "slug": "organization-list",
+                    "badge": [
+                        "label-primary fs-tiny",
+                        ""
+                    ]
+                },
+                {
+                    "url": "organization/add",
+                    "name": "Add",
+                    "slug": "organization-add",
+                    "badge": [
+                        "label-primary fs-tiny",
+                        ""
+                    ]
+                }
+            ]
+        }
+    ]
+}

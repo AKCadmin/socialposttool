@@ -1,0 +1,16 @@
+1. Open the terminal in your root directory of Sneat Laravel.
+2. Use the following command to install the composer - composer install
+3. Run the following command to generate the key - php artisan key:generate
+4. By running the following command, you will be able to get all the dependencies in your node_modules folder: yarn
+5. To run the project, you need to run the following command in the project directory. It will compile JavaScript and Styles. - yarn dev
+6. To serve the application, you need to run the following command in the project directory - php artisan serve
+7. Now navigate to the given address, and you will see your application is running.🥳
+
+
+NOTE:
+If you face to install yarn in windows machine, firts install yarn using  - npm install --global yarn
+Then if you till face problem, then do the following 
+1. run command in powershell - Get-ExecutionPolicy
+2. If it shows "Restricted", run this command - Set-ExecutionPolicy RemoteSigned
+3. Run the following command to verify that the execution policy has been updated: Get-ExecutionPolicy
+4. check installation: yarn --version
